@@ -11,29 +11,6 @@ import AuthLoadingScreen from './screens/AuthLoading';
 import ChatScreen from './screens/ChatScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
-// const MainNavigator = createStackNavigator(
-//   {
-//     Home: {screen: HomeScreen},
-//     Login: {screen: LoginScreen},
-//     Auth: {screen: AuthLoadingScreen},
-//     Chat: {screen: ChatScreen},
-//     Profile: {screen: ProfileScreen},
-//     Add: {screen: AddScreen},
-//     Phone: {screen: PhoneAuthScreen},
-//   },
-//   {
-//     defaultNavigationOptions: {
-//       //headerTintColor: '#fff',
-//       // headerStyle: {
-//       //   backgroundColor: '#B83227',
-//       // },
-//       // headerTitleStyle: {
-//       //   color: '#fff',
-//       // },
-//     },
-//     initialRouteName: 'Auth',
-//   },
-// );
 
 const AppStack = createStackNavigator({
   Home: HomeScreen,
@@ -77,14 +54,7 @@ const TabNavigator = createBottomTabNavigator(
 );
 
 var firebaseConfig = {
-  apiKey: 'AIzaSyBwKqiZ6hQ-XyFwHed1wu_69oged2y70os',
-  authDomain: 'chat-c1574.firebaseapp.com',
-  databaseURL: 'https://chat-c1574.firebaseio.com',
-  projectId: 'chat-c1574',
-  storageBucket: 'chat-c1574.appspot.com',
-  messagingSenderId: '758648869822',
-  appId: '1:758648869822:web:aea17a148074b1d6335fef',
-  measurementId: 'G-W7SDTM4R25',
+  //ADD   your firebaseConfigs here
 };
 // Initialize Firebase
 if (!firebase.apps.length) {
