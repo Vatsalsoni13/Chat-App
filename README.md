@@ -7,3 +7,13 @@ The app initially checks if you are logged in or not according you are redirecte
 Add CAMERA and WRITE_EXTERNAL_STORAGE Permissions in the AndroidManifest.xml file (located at Chat\android\app\src\main & Chat\android\app\src\debug). 
 ## Images
 #### Login
+<img src="Readme_Img/Login.png" alt="Login Screen" height=400 >
+
+#### Home
+<img src="Readme_Img/Home.png" alt="Home Screen" height=400 >
+
+#### Chat
+<img src="Readme_Img/Chat.png" alt="Chat Screen" height=400 >
+
+#### Settings
+<img src="Readme_Img/Settings.png" alt="Settings Screen" height=400 >
